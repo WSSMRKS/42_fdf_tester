@@ -1,7 +1,5 @@
 #!/bin/bash
 
-test=1;
-
 # line="test_maps/test_1dot.fdf"
 # echo $line
 # ../fdf $line
