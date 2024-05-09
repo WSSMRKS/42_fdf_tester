@@ -1,366 +1,368 @@
 #!/bin/bash
 
-# line="test_maps/test_1dot.fdf"
+# line="fdf_tester/test_maps/test_1dot.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/test_1column.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/test_1column.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/test_1dot_2.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/test_1dot_2.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/test_1line.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/test_1line.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/test_2dot.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/test_2dot.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/test_2dot_v.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/test_2dot_v.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/test_3dot.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/test_3dot.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/test_3dot2.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/test_3dot2.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/test_4dots.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/test_4dots.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/test_error1.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/test_error1.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/test_error2.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/test_error2.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/test_error3.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/test_error3.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/test_error4.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/test_error4.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/10-2.fdf.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/10-2.fdf.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/10-70.fdf.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/10-70.fdf.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/20-60.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/20-60.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/42.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/42.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/42_dent.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/42_dent.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/50-4.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/50-4.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/100-6.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/100-6.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/basictest.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/basictest.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/elem.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/elem.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/elem2.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/elem2.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/elem-col.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/elem-col.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/elem-fract.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/elem-fract.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/julia.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/julia.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/mars.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/mars.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/pentenegpos.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/pentenegpos.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/plat.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/plat.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/pnp_flat.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/pnp_flat.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/pylone.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/pylone.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/pyra.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/pyra.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/pyramide.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/pyramide.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/t1.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/t1.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/t2.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/t2.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/42_"
+# ./fdf $line
+# line="fdf_tester/test_maps/42_"
 # echo $line
-# ../fdf $line
-# line="test_maps/test_error5.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/test_error5.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/MGDS_MID_OCEAN_RIDGES_LAU_BASIN_OCEAN1_L.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/MGDS_MID_OCEAN_RIDGES_LAU_BASIN_OCEAN1_L.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/MGDS_WHOLE_WORLD_OCEAN0_S.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/MGDS_WHOLE_WORLD_OCEAN0_S.fdf"
 # echo $line
-# ../fdf $line
-# line="test_maps/MGDS_WHOLE_WORLD_OCEAN0_XL.fdf"
+# ./fdf $line
+# line="fdf_tester/test_maps/MGDS_WHOLE_WORLD_OCEAN0_XL.fdf"
 # echo $line
-# ../fdf $line
+# ./fdf $line
 
 
-line="test_maps/test_1dot.fdf"
+line="fdf_tester/test_maps/test_1dot.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/test_1column.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/test_1column.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/test_1dot_2.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/test_1dot_2.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/test_1line.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/test_1line.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/test_2dot.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/test_2dot.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/test_2dot_v.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/test_2dot_v.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/test_3dot.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/test_3dot.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/test_3dot2.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/test_3dot2.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/test_4dots.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/test_4dots.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/test_error1.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/test_error1.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/test_error2.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/test_error2.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/test_error3.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/test_error3.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/test_error4.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/test_error4.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/10-2.fdf.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/10-2.fdf.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/10-70.fdf.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/10-70.fdf.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/20-60.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/20-60.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/42.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/42.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/42_dent.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/42_dent.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/50-4.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/50-4.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/100-6.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/100-6.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/basictest.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/basictest.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/elem.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/elem.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/elem2.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/elem2.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/elem-col.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/elem-col.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/elem-fract.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/elem-fract.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/julia.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/julia.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/mars.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/mars.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/pentenegpos.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/pentenegpos.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/plat.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/plat.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/pnp_flat.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/pnp_flat.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/pylone.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/pylone.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/pyra.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/pyra.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/pyramide.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/pyramide.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/t1.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/t1.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/t2.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/t2.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/42_"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/42_"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/test_error5.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/test_error5.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/MGDS_MID_OCEAN_RIDGES_LAU_BASIN_OCEAN1_L.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/MGDS_MID_OCEAN_RIDGES_LAU_BASIN_OCEAN1_L.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/MGDS_WHOLE_WORLD_OCEAN0_S.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/MGDS_WHOLE_WORLD_OCEAN0_S.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
-line="test_maps/MGDS_WHOLE_WORLD_OCEAN0_XL.fdf"
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
+line="fdf_tester/test_maps/MGDS_WHOLE_WORLD_OCEAN0_XL.fdf"
 echo $line
-valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ../fdf $line
+valgrind -s --show-leak-kinds=all --error-exitcode=5 --exit-on-first-error=no --leak-check=full ./fdf $line
 
-# line="test_maps/test_1dot.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/test_1column.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/test_1dot_2.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/test_1line.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/test_2dot.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/test_2dot_v.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/test_3dot.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/test_3dot2.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/test_4dots.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/test_error1.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/test_error2.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/test_error3.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/test_error4.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/10-2.fdf.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/10-70.fdf.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/20-60.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/42.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/42_dent.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/50-4.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/100-6.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/basictest.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/elem.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/elem2.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/elem-col.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/elem-fract.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/julia.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/mars.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/pentenegpos.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/plat.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/pnp_flat.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/pylone.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/pyra.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/pyramide.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/t1.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/t2.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/42_"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/test_error5.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/MGDS_MID_OCEAN_RIDGES_LAU_BASIN_OCEAN1_L.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/MGDS_WHOLE_WORLD_OCEAN0_S.fdf"
-# echo $line
-# valgrind  ../fdf $line
-# line="test_maps/MGDS_WHOLE_WORLD_OCEAN0_XL.fdf"
-# echo $line
-# valgrind  ../fdf $line
 
+# line="fdf_tester/test_maps/test_1dot.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/test_1column.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/test_1dot_2.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/test_1line.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/test_2dot.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/test_2dot_v.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/test_3dot.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/test_3dot2.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/test_4dots.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/test_error1.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/test_error2.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/test_error3.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/test_error4.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/10-2.fdf.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/10-70.fdf.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/20-60.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/42.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/42_dent.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/50-4.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/100-6.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/basictest.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/elem.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/elem2.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/elem-col.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/elem-fract.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/julia.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/mars.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/pentenegpos.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/plat.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/pnp_flat.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/pylone.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/pyra.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/pyramide.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/t1.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/t2.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/42_"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/test_error5.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/MGDS_MID_OCEAN_RIDGES_LAU_BASIN_OCEAN1_L.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/MGDS_WHOLE_WORLD_OCEAN0_S.fdf"
+# echo $line
+# valgrind  ./fdf $line
+# line="fdf_tester/test_maps/MGDS_WHOLE_WORLD_OCEAN0_XL.fdf"
+# echo $line
+# valgrind  ./fdf $line
+
+function returnVal(0)
